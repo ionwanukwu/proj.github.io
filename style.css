@@ -1,0 +1,196 @@
+body{
+    margin: 0;
+    padding: 0;
+    
+}
+/*first section*/
+#first-section{
+    background-color: rgb(63, 118, 236);
+    width: 100%;
+    height: fit-content;
+    
+}
+.top-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.first-cloud{
+    position: relative;
+    left: 200px;
+    margin-top: 20px;
+}
+.second-cloud{
+    position: relative;
+    margin-right: 500px;
+    margin-top: 2px; 
+}
+.mountain{
+    position: relative;
+    margin-top: -100px;
+}
+.text{
+    font-size: 28px;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    color: rgb(61, 4, 7);
+}
+span{
+    color: rgb(205, 214, 223);
+}
+@media (max-width: 1200px){
+    body{
+        margin: 0;
+        padding: 0;
+    }
+    #first-section{
+        background-color: rgb(63, 118, 236);
+        width: 100%;
+        height: fit-content;
+        
+    }
+    .top-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+}
+    .first-cloud{
+        position: relative;
+        left: 0px;
+        width: 100px;
+}
+   .second-cloud{
+    position: relative;
+    margin-right: 5px;
+    margin-top: 2px;
+
+}
+/*second section*/
+}
+.second-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.myself{
+    border-radius: 50%;
+    margin-top: 70px;
+}
+.about{
+
+    text-align: center;
+    margin-top:70px;
+    font-family: 'Libre Baskerville', serif;
+}
+.big{
+    color: rgb(63, 118, 236);;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;
+    margin-top:40px;
+
+}
+/* third section*/
+#third-section{
+    margin: 250px 250px;
+    padding:0;
+    margin-top: 80px;
+}
+.third-container{
+  width: 100%;
+  text-align: center;
+  display: grid;
+  float: left;
+}
+.title{
+    color: rgb(63, 118, 236);
+    text-align: center;
+}
+
+.gif{
+    float: left;
+    margin-bottom: 50px;
+    width: 300px;
+    height: 200px;
+    margin-right: 20px;
+    padding: 30px;
+      
+}
+.para{
+    text-align: left;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: lighter;
+}
+.skill{
+    text-align: left;
+}
+.skill h3{
+    color: rgb(63, 118, 236);;
+}
+/*fourth section*/
+
+#forth-section{
+    margin-top:1000px
+}
+.contact-container{
+    text-align: center;
+    margin-left: 250px;
+    margin-right: 250px;
+    
+}
+.button{
+   background-color:rgb(63, 118, 236); 
+   color: aliceblue;
+   padding: 10px;
+   font-size: 15px;
+   border: 0;
+   border-radius: 10px;
+   text-transform: uppercase;
+   margin-bottom: 50px;
+}
+.get{
+    color:rgb(63, 118, 236); 
+}
+.design{
+   color:  rgb(63, 118, 236);}
+   .parag{
+    font-family: 'Libre Baskerville', serif;
+   }
+   
+
+/*footer section*/
+ #last-section{
+    background-color:rgb(63, 118, 236) ;
+    padding: 10px 0 20px;
+
+}
+ .footer{
+    text-align: center;
+    margin-top: 4rem;
+}
+ a{
+    font-size: 20px;
+    text-decoration: none;
+    margin: 10px 20px;
+}
+ a:hover {
+    color: #eaf6f6;
+  }
+ .tech{
+    color: rgb(239, 240, 241);
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
